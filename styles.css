@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 30px 30px;
+    font-size: 19px;
+    background-color: #007BFF;
+    color: #fff;
+    border: solid 2px;
+    border-color: black ;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 5px 10px rgba(0, 0, 0, 1);
+    transition: background-color 0.3s; /* Smooth transition effect *TODO - */
+}
+
+button:hover {
+  background-color: #e74c3c; /* New background color on hover */
+}
